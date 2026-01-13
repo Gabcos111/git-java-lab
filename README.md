@@ -39,6 +39,10 @@ git clone https://github.com/YOUR_USERNAME/git-java-lab.git
 cd git-java-lab
 ```
 
+<p align="center">
+  <img src="images/GIT_ForkClone.png" width="50%">
+</p>
+
 ### 3. Create a Working Branch
 It is best practice to never work directly on `main`. Create a branch for a new feature:
 
@@ -48,7 +52,14 @@ git checkout -b my-solo-test
 
 > **Note:** The command `git checkout -b name` is a shortcut that does two things at once:
 > 1. `git branch my-solo-test` (Creates the branch)
+<p align="center">
+  <img src="images/GIT_BranchTest.png" width="50%">
+</p>
+
 > 2. `git checkout my-solo-test` (Switches/moves your terminal to that branch)
+<p align="center">
+  <img src="images/GIT_Checkout.png" width="50%">
+</p>
 
 ### 4. Make a Change
 Create a new file called `notes.txt` using the terminal or your preferred text editor.
@@ -76,12 +87,20 @@ Merge the solo branch into main
 git merge my-solo-test
 ```
 
+<p align="center">
+  <img src="images/GIT_Merge.png" width="50%">
+</p>
+
 ### 6. Push to your Cloud
 Now that your local `main` is updated, upload it to your GitHub profile:
 
 ```bash
 git push origin main
 ```
+
+<p align="center">
+  <img src="images/GIT_Push.png" width="50%">
+</p>
 
 ---
 
@@ -95,6 +114,10 @@ Create a new branch named after yourself (e.g., `mikel-idoyaga`):
 ```bash
 git checkout -b your-name-surname
 ```
+
+<p align="center">
+  <img src="images/GIT_NewBranch.png" width="50%">
+</p>
 
 ### 2. Edit the Code
 Open `Participants.java` with any text editor and add your line inside the `main` method:
@@ -122,6 +145,10 @@ git push origin your-name-surname
 1. Go to **your fork** on the GitHub website.
 2. Look for a notification bar that says **"Compare & pull request"** and click it.
 3. Click the green **"Create pull request"** button.
+
+<p align="center">
+  <img src="images/GIT_PullRequest.png" width="50%">
+</p>
 
 ---
 
